@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(to right, #88a6e7, #c44545);
+}
+
+.container {
+  height: 350px;
+  width: 400px;
+  border: solid 3px;
+  border-color: black;
+  margin: 50px auto;
+}
+
+.equal-btn {
+    border-radius: 50%;
+}

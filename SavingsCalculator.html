@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="stylesheet"
+      href="C:\PROJECTS\Sandbox\Savings\SavingsStyling.css"
+    />
+    <title>Savings Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Savings Calculator</h1>
+      <h3 id="venit">Earnigs:</h3>
+      <input type="number" id="earnings" onchange="calculateSavings()" />
+      <br />
+      <h3 id="consum">Consumption:</h3>
+      <input type="number" id="consumption" onchange="calculateSavings()" />
+      <br />
+      <!-- <button class="equal-btn" onchange="calculateSavings()">=</button> -->
+      <h2 onchange="calculateSavings()" id="result">The savings are</h2>
+    </div>
+    <script src="C:\PROJECTS\Sandbox\Savings\Savings.js"></script>
+  </body>
+</html>
